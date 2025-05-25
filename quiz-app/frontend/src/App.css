@@ -1,0 +1,261 @@
+dashboard looks ugly . how can i fix it  . current app.css: body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #f5f6fa, #dcdde1);
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  max-width: 700px;
+  margin: 60px auto;
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 40px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.question-section {
+  margin-bottom: 25px;
+}
+
+.question-count {
+  font-size: 20px;
+  margin-bottom: 12px;
+  color: #2f3640;
+  font-weight: 500;
+}
+
+.question-text {
+  font-size: 24px;
+  font-weight: 600;
+  color: #2c3e50;
+}
+
+.answer-section {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.option-button {
+  padding: 14px 18px;
+  font-size: 17px;
+  border-radius: 10px;
+  border: 2px solid #dcdde1;
+  background-color: #f1f2f6;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.option-button:hover {
+  background-color: #dcdde1;
+  border-color: #00a8ff;
+  transform: scale(1.02);
+}
+
+.option-button.selected {
+  background-color: #00a8ff;
+  color: white;
+  border-color: #00a8ff;
+}
+
+.submit-button {
+  margin-top: 25px;
+  padding: 14px 24px;
+  font-size: 17px;
+  background-color: #44bd32;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #4cd137;
+}
+
+.feedback {
+  margin-top: 25px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #2f3640;
+}
+
+/* Score section */
+.score-section {
+  text-align: center;
+  padding: 50px;
+  font-size: 26px;
+  font-weight: bold;
+  color: #2f3640;
+}
+
+/* Dashboard styles */
+/* Dashboard container */
+.dashboard {
+  max-width: 700px;
+  margin: 60px auto;
+  background: linear-gradient(145deg, #ffffff, #f9fbff);
+  border-radius: 24px;
+  padding: 50px 40px;
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.dashboard h1 {
+  margin-bottom: 50px;
+  font-size: 36px;
+  font-weight: 700;
+  color: #34495e;
+  text-shadow: 1px 1px 4px #ecf0f1;
+}
+
+.dashboard-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+}
+
+.dashboard button {
+  padding: 18px 36px;
+  font-size: 20px;
+  border-radius: 16px;
+  border: none;
+  background: linear-gradient(135deg, #00a8ff, #0077cc);
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 
+    background 0.3s ease,
+    box-shadow 0.3s ease,
+    transform 0.2s ease;
+  min-width: 180px;
+  box-shadow: 0 8px 15px rgba(0, 168, 255, 0.3);
+}
+
+.dashboard button:hover {
+  background: linear-gradient(135deg, #0077cc, #004f99);
+  box-shadow: 0 12px 20px rgba(0, 120, 204, 0.6);
+  transform: translateY(-4px) scale(1.05);
+  outline: none;
+}
+
+
+
+
+
+/* Quiz container */
+.quiz {
+  max-width: 700px;
+  margin: 60px auto;
+  background: #fff;
+  border-radius: 16px;
+  padding: 40px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* Back to Dashboard button */
+.quiz button:last-of-type {
+  margin-top: 30px;
+  background-color: #718093;
+  border-color: #718093;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.quiz button:last-of-type:hover {
+  background-color: #57606f;
+  border-color: #57606f;
+}
+
+.option-button.correct {
+  background-color: #4cd137;
+  color: white;
+  border-color: #44bd32;
+}
+
+.option-button.wrong {
+  background-color: #e84118;
+  color: white;
+  border-color: #c23616;
+}
+
+.back-button {
+  margin-bottom: 20px;
+  background: transparent;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  color: #00a8ff;
+  text-decoration: underline;
+}
+
+
+/* Dashboard topic list */
+.topic-list {
+  list-style: none;
+  padding: 0;
+  margin: 40px 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+}
+
+.topic-list li {
+  /* no extra styles needed */
+}
+
+.topic-button {
+  padding: 18px 36px;
+  font-size: 20px;
+  border-radius: 16px;
+  border: none;
+  background: linear-gradient(135deg, #00a8ff, #0077cc);
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 
+    background 0.3s ease,
+    box-shadow 0.3s ease,
+    transform 0.2s ease;
+  min-width: 160px;
+  box-shadow: 0 8px 15px rgba(0, 168, 255, 0.3);
+}
+
+.topic-button:hover {
+  background: linear-gradient(135deg, #0077cc, #004f99);
+  box-shadow: 0 12px 20px rgba(0, 120, 204, 0.6);
+  transform: translateY(-4px) scale(1.05);
+  outline: none;
+}
+/* Center the heading horizontally */
+.app h1 {
+  text-align: center;
+}
+.back-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px; /* space between arrow and text */
+  background-color: transparent;
+  border: none;
+  color: #00a8ff;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 8px 12px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  text-decoration: none;
+  box-shadow: 0 2px 6px rgba(0, 168, 255, 0.2);
+}
+
+.back-button:hover {
+  background-color: #00a8ff;
+  color: white;
+  text-decoration: none;
+  box-shadow: 0 4px 12px rgba(0, 168, 255, 0.4);
+}

@@ -1,0 +1,155 @@
+
+{
+  "dsa": [
+    {
+      "id": 1,
+      "question": "Which data structure follows LIFO?",
+      "options": ["Queue", "Stack", "List", "Tree"],
+      "correct_option": 1
+    },
+    {
+      "id": 2,
+      "question": "Worst case search in a balanced Binary Search Tree?",
+      "options": ["O(1)", "O(n)", "O(log n)", "O(n squared)"],
+      "correct_option": 2
+    },
+    {
+      "id": 3,
+      "question": "Which sort has worst case O(n log n)?",
+      "options": ["Bubble Sort", "Insertion Sort", "Merge Sort", "Selection Sort"],
+      "correct_option": 2
+    },
+    {
+      "id": 4,
+      "question": "Linear data structure with sequential access?",
+      "options": ["Graph", "Tree", "Array", "Hash Table"],
+      "correct_option": 2
+    },
+    {
+      "id": 5,
+      "question": "Hash function purpose in a hash table?",
+      "options": ["Sort elements", "Set table size", "Map keys to indices", "Handle collisions"],
+      "correct_option": 2
+    },
+    {
+      "id": 6,
+      "question": "Which is a non linear data structure?",
+      "options": ["Queue", "Stack", "Linked List", "Graph"],
+      "correct_option": 3
+    }
+  ],
+  "react": [
+    {
+      "id": 1,
+      "question": "Main purpose of JSX in React?",
+      "options": ["Define routing", "Style components", "Describe UI", "Manage state"],
+      "correct_option": 2
+    },
+    {
+      "id": 2,
+      "question": "React Hook for managing state?",
+      "options": ["useEffect", "useRef", "useState", "useContext"],
+      "correct_option": 2
+    },
+    {
+      "id": 3,
+      "question": "Primary use of \"key\" prop in React lists?",
+      "options": ["Style list items", "Uniquely identify items", "Define event handlers", "Specify item order"],
+      "correct_option": 1
+    },
+    {
+      "id": 4,
+      "question": "Role of Virtual DOM in React?",
+      "options": ["Directly change browser DOM", "Server side React code", "In memory DOM for efficient updates", "Handle user input"],
+      "correct_option": 2
+    },
+    {
+      "id": 5,
+      "question": "NOT a valid React class component lifecycle method?",
+      "options": ["componentDidMount()", "componentWillUnmount()", "render()", "componentWillUpdate()"],
+      "correct_option": 3
+    },
+    {
+      "id": 6,
+      "question": "Purpose of React Router?",
+      "options": ["Manage global state", "Handle navigation between views", "Make API requests", "Style with CSS in JS"],
+      "correct_option": 1
+    }
+  ],
+  "javascript": [
+    {
+      "id": 1,
+      "question": "Keyword for block scope variable?",
+      "options": ["var", "let", "const", "scope"],
+      "correct_option": 1
+    },
+    {
+      "id": 2,
+      "question": "Output of console log(2 + '2')?",
+      "options": ["4", "\"4\"", "\"22\"", "Error"],
+      "correct_option": 2
+    },
+    {
+      "id": 3,
+      "question": "NOT a primitive data type in JavaScript?",
+      "options": ["string", "number", "boolean", "object"],
+      "correct_option": 3
+    },
+    {
+      "id": 4,
+      "question": "Purpose of addEventListener()?",
+      "options": ["Style HTML element", "Attach event handler", "Modify element content", "Create new elements"],
+      "correct_option": 1
+    },
+    {
+      "id": 5,
+      "question": "What is a closure in JavaScript?",
+      "options": ["Inner function accessing outer variables", "Way to define classes", "Mechanism for async operations", "Method to iterate arrays"],
+      "correct_option": 0
+    },
+    {
+      "id": 6,
+      "question": "Array method to create new array from function results?",
+      "options": ["forEach()", "filter()", "map()", "reduce()"],
+      "correct_option": 2
+    }
+  ],
+  "python": [
+    {
+      "id": 1,
+      "question": "NOT a built in Python data type?",
+      "options": ["list", "tuple", "set", "array"],
+      "correct_option": 3
+    },
+    {
+      "id": 2,
+      "question": "Output of print(3 * 'abc')?",
+      "options": ["9", "'abcabcabc'", "'3abc'", "Error"],
+      "correct_option": 1
+    },
+    {
+      "id": 3,
+      "question": "Keyword to define a function?",
+      "options": ["def", "function", "fun", "define"],
+      "correct_option": 0
+    },
+    {
+      "id": 4,
+      "question": "Purpose of init method in Python class?",
+      "options": ["Define class methods", "Initialize object attributes", "Delete an object", "Specify class inheritance"],
+      "correct_option": 1
+    },
+    {
+      "id": 5,
+      "question": "Used for single line comments in Python?",
+      "options": ["//", "/* ... */", "#", "--"],
+      "correct_option": 2
+    },
+    {
+      "id": 6,
+      "question": "What is a Python decorator?",
+      "options": ["Define output appearance", "Syntax for loops", "Add functionality to a function", "Module for date and time"],
+      "correct_option": 2
+    }
+  ]
+}
